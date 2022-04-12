@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Expenses</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+<body>
+    <div class="expense-content">
+        
+        <h1>
+            Daily Expenses
+        </h1>
+        
+        <div class="title">
+            Day Total: <span class="total">$0.00</span>
+        </div>
+        
+        <label>
+            Quick Add
+        </label>
+        
+        <div class="quick-add">
+            
+            <input name="name" id="name" class="name" type="text" placeholder="Name">
+            <input name="amount" id="amount" class="amount" placeholder="$0.00" type="text">
+            
+            <button onclick="onAddExpense(this)">
+                Add
+            </button>
+        </div>
+        
+        <label>
+            Expense List:
+        </label>
+
+        <div class="expense-list">
+            No Expenses
+        </div>
+        
+    </div>
+</body>
+</html>
